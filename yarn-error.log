@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\NOUHAILA\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\NOUHAILA\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\NOUHAILA\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\NOUHAILA\Downloads\Ora\APP\db_home\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Users\NOUHAILA\AppData\Local\Microsoft\WindowsApps;C:\Users\NOUHAILA\AppData\Local\Microsoft\WindowsApps;C:\Users\NOUHAILA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;C:\Users\NOUHAILA\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\NOUHAILA\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1130:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:270:20)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  {
+    "name": "talk",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "node Backend/server.js"
+    },
+    "author": "Nouhaila Samih",
+    "license": "ISC",
+    "dependencies": {
+      "@chakra-ui/react": "^2.5.1",
+      "@emotion/react": "^11.10.6",
+      "@emotion/styled": "^11.10.6",
+      "bcryptjs": "^2.4.3",
+      "build": "^0.1.4",
+      "colors": "^1.4.0",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "express-async-handler": "^1.2.0",
+      "framer-motion": "^9.0.4",
+      "jsonwebtoken": "^9.0.0",
+      "mongoose": "^6.9.2",
+      "nodemon": "^2.0.20",
+      "socket.io": "^4.6.1",
+      "yarn": "^1.22.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

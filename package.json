@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node Backend/server.js"
+    "start": "node Backend/server.js",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Nouhaila Samih",
   "license": "ISC",
@@ -24,5 +25,8 @@
     "nodemon": "^2.0.20",
     "socket.io": "^4.6.1",
     "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "webpack": "^5.76.1"
   }
 }
