@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node Backend/server.js"
+    "start": "node Backend/server.js",
+    "build": "node Backend/server.js"
+    
   },
   "author": "Nouhaila Samih",
   "license": "ISC",
