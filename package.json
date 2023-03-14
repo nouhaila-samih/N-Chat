@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node Backend/server.js",
-    "build": "nodemon Backend/server.js"
+    "start": "node Backend/server.js"
     
   },
   "author": "Nouhaila Samih",
